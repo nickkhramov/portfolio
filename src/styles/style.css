@@ -388,7 +388,7 @@ a:hover {
   background: linear-gradient(101.56deg, #2c2c2c 1.56%, #1c1c1c 95.55%);
 }
 .header__top {
-  padding-top: 33px;
+  padding: 33px;
   display: flex;
   align-items: center;
   gap: 235px;
@@ -398,6 +398,7 @@ a:hover {
 }
 .header__text {
   color: #e4e4e4;
+  padding-bottom: 30px;
 }
 .header__title {
   font-family: "NEXT ART";
@@ -423,15 +424,28 @@ a:hover {
   box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.4784313725);
   border: none;
   border-radius: 6px;
+  color: #000000;
+}
+.header__button:hover {
+  background: #f6a500;
+  color: #000000;
+  transition: 0s;
 }
 .navbar__list {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
-  gap: 128px;
+  gap: 116px;
+}
+.navbar__item--active {
+  border-bottom: 1px solid #f6a500;
 }
 .navbar__link {
   padding: 10px;
   font-weight: 300;
+}
+
+.main {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
 }/*# sourceMappingURL=style.css.map */
