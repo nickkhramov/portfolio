@@ -1,0 +1,88 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+.header {
+  background: $gradient-gray;
+
+  &__top {
+    padding-top: 33px;
+    display: flex;
+    align-items: center;
+    gap: 235px;
+  }
+
+  &__logo {
+  }
+
+  &__image {
+    max-width: 180px;
+  }
+
+  &__navbar {
+  }
+
+  &__bottom {
+  }
+
+  &__text {
+    color: $color-text;
+  }
+
+  &__title {
+    font-family: "NEXT ART";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 82px;
+    max-width: 529px;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    max-width: 400px;
+    margin-bottom: 22px;
+  }
+
+  &__button {
+    font-family: "NEXT ART";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    background: $gradient-orange;
+    padding: 14px 40px;
+    box-shadow: 0px 2px 13px #e29e007a;
+    border: none;
+    border-radius: 6px;
+  }
+
+  &__photo {
+  }
+}
+
+.navbar {
+  // .navbar__btn
+
+  &__btn {
+  }
+
+  // .navbar__list
+
+  &__list {
+    @include unlist;
+    display: flex;
+    gap: 128px;
+  }
+
+  // .navbar__item
+
+  &__item {
+  }
+
+  // .navbar__link
+
+  &__link {
+    padding: 10px;
+    font-weight: 300;
+  }
+}
