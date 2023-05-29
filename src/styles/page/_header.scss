@@ -8,7 +8,7 @@
     padding: 33px;
     display: flex;
     align-items: center;
-    gap: 235px;
+    gap: 385px;
   }
 
   &__logo {
@@ -56,12 +56,13 @@
     border: none;
     border-radius: 6px;
     color: $color-black;
-  }
-  &__button:hover {
-    // cursor: pointer;
-    background: $color-orange;
-    color: $color-black;
-    transition: 0s;
+
+    &:hover {
+      // cursor: pointer;
+      background: $color-orange;
+      color: $color-black;
+      transition: 0s;
+    }
   }
 
   &__photo {
