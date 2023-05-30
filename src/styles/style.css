@@ -535,4 +535,34 @@ a:hover {
   font-size: 20px;
   line-height: 24px;
   padding: 23px 60px;
+}
+
+.footer {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+}
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__image {
+  max-width: 200px;
+}
+.footer__copyright {
+  padding-top: 20px;
+}
+
+.container--footer {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // .skills__title
 
   &__title {
     color: $color-text;
@@ -21,16 +20,12 @@
     padding: 50px 0;
   }
 
-  // .skills__box
-
   &__box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 33px;
   }
-
-  // .skills__card
 
   &__card {
     color: $color-text;
@@ -50,14 +45,10 @@
     }
   }
 
-  // .skills__image
-
   &__image {
     max-width: 90px;
     max-height: 90px;
   }
-
-  // .skills__text
 
   &__text {
     font-style: normal;
